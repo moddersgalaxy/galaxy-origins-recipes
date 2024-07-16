@@ -37,7 +37,7 @@ event.custom({
     "category": "misc",
     "key": {
       "L": {
-        "item": 'ad_astra:calorite_plate'
+        "item": 'alltheores:diamond_plate'
       },
       "S": {
         "tag": "forge:ingots/steel"
