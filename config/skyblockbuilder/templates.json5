@@ -1,0 +1,151 @@
+{
+  // The template which will be used for spawn only
+  // Example: 
+  // {
+  //     "name": "default",
+  //     "desc": "",
+  //     "file": "default.nbt",
+  //     "spawns": "default",
+  //     "offset": [ 0, 0, 0 ],
+  //     "surroundingMargin": 0,
+  //     "surroundingBlocks": "default"
+  // }
+  "spawn": {
+    "name": "Spawn",
+    "file": "spawn.nbt",
+    "spawns": "spawn"
+  },
+  
+  "spawns": {
+    "default": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 6, 3, 5 ]
+      ],
+      "west": []
+    },
+    "paraiso": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 5, 3, 4 ]
+      ],
+      "west": []
+    },
+    "spawn": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 8, 0, 15 ]
+      ],
+      "west": []
+    },
+    "overpower": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 11, 11, 40 ]
+      ],
+      "west": []
+    },
+    "dificil": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 2, 8, 2 ]
+      ],
+      "west": []
+    },
+    "medium": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 8, 5, 7 ]
+      ],
+      "west": []
+    },
+    "normal": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 5, 3, 2 ]
+      ],
+      "west": []
+    },
+    "iceman": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 14, 16, 6 ]
+      ],
+      "west": []
+    },
+    "bamboo": {
+      "north": [],
+      "east": [],
+      "south": [
+        [ 11, 29, 10 ]
+      ],
+      "west": []
+    }
+  },
+  
+  // A list of file names for templates which should spread around an island
+  // Instead of "minOffset" and "maxOffset" with same values, you could also just use "offset".
+  // "origin" defines from where the offset will be used. Possible values are "zero" and "center", where "zero" is default.
+  // Example: 
+  // {
+  //     "file": "default.nbt",
+  //     "minOffset": [ -6, 3, 5 ],
+  //     "maxOffset": [ 4, 10, 3 ],
+  //     "origin": "center"
+  // }
+  "spreads": {
+    "default": []
+  },
+  
+  // A list of blocks which can be used to surround islands/caves.
+  "surroundingBlocks": {
+    "default": []
+  },
+  
+  // The list of templates being available. The first entry is the default template.
+  "templates": [
+    {
+      "name": "Isla Medium",
+      "file": "un_arbol.nbt",
+      "spawns": "medium"
+    },
+    {
+      "name": "Isla Normal",
+      "file": "normal.nbt",
+      "spawns": "normal"
+    },
+    {
+      "name": "Isla Cultivador",
+      "file": "paraiso.nbt",
+      "spawns": "paraiso"
+    },
+    {
+      "name": "Isla Dificil",
+      "file": "dificil.nbt",
+      "spawns": "dificil"
+    },
+    {
+      "name": "OverPower",
+      "file": "overpower.nbt",
+      "spawns": "overpower"
+    },
+    {
+      "name": "Don IceMan",
+      "file": "iceman.nbt",
+      "spawns": "iceman"
+    },
+    {
+      "name": "Isla Bamboo",
+      "file": "bamboo.nbt",
+      "spawns": "bamboo"
+    }
+  ]
+}

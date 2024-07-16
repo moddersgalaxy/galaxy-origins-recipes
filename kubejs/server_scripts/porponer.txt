@@ -1,0 +1,61 @@
+ //desh
+  event.custom({
+    "type": "createsifter:sifting",
+    "ingredients": [
+      {
+        "item": 'kubejs:piglich_heart_block'
+      },
+      {
+        "item": "createsifter:advanced_brass_mesh"
+      }
+    ],
+    "processingTime": 70,
+    "results": [
+      {
+        "chance": 0.15,
+        "item": 'ad_astra:raw_desh'
+      }
+    ]
+  }).id('galaxtorigenes:rawdesh')
+
+
+  //calorite
+  event.custom({
+    "type": "createsifter:sifting",
+    "ingredients": [
+      {
+        "item": 'thermalendergy:prismalium_block'
+      },
+      {
+        "item": "createsifter:advanced_brass_mesh"
+      }
+    ],
+    "processingTime": 70,
+    "results": [
+      {
+        "chance": 0.15,
+        "item": 'ad_astra:raw_calorite'
+      }
+    ]
+  }).id('galaxtorigenes:rawdcalorite')
+
+
+ //ostrum
+  event.custom({
+    "type": "createsifter:sifting",
+    "ingredients": [
+      {
+        "item": 'thermalendergy:stellarium_block'
+      },
+      {
+        "item": "createsifter:advanced_brass_mesh"
+      }
+    ],
+    "processingTime": 70,
+    "results": [
+      {
+        "chance": 0.15,
+        "item": 'ad_astra:raw_ostrum'
+      }
+    ]
+  }).id('galaxtorigenes:rawdostrum')
