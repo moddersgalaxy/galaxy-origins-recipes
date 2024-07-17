@@ -9,7 +9,7 @@
 	minTickFishingInMinutes = 1
 	#Set to the maximum number of minutes the fishtrap should try to fish.
 	#Range: 5 ~ 60
-	maxTickFishingInMinutes = 5
+	maxTickFishingInMinutes = 2
 
 [spawneggtrap]
 	#Set to the minimum number of minutes the animal trap should try to trap animals.
